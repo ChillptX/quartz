@@ -17,6 +17,7 @@ public class HelloQuartzConfig {
                 .build();
     }
 
+
     @Bean
     public Trigger printTimeJobTrigger(){
         CronScheduleBuilder cronScheduleBuilder = CronScheduleBuilder.cronSchedule("0/1 * * * * ?");
